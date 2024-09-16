@@ -9,7 +9,7 @@ namespace ImageSlider
 {
     internal class Connection
     {
-        private static string strconnection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ADMIN\Downloads\ProjectImageSlider\ImageSlider\Database1.mdf;Integrated Security=True";
+        private static string strconnection = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ADMIN\Downloads\Image_Slider\ImageSlider\Database1.mdf;Integrated Security=True";
         public static SqlConnection GetSqlConnection()
         {
             return new SqlConnection(strconnection);
